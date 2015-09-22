@@ -1,0 +1,15 @@
++ umask 022
++ cd /root/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ mv /root/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux /root/stxxl/build/_CPack_Packages/Linux/RPM/tmpBBroot
++ exit 0
++ umask 022
++ cd /root/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ [ -e /root/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux ]
++ mv /root/stxxl/build/_CPack_Packages/Linux/RPM/tmpBBroot /root/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ umask 022
++ cd /root/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ exit 0
